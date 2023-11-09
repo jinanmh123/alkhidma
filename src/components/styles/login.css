@@ -1,0 +1,108 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.login-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    width: 350px;
+}
+
+.title {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.Message {
+    color: #696969;
+    margin-bottom: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.red-asterisk {
+    color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-field {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    height: 40px;
+    width: 100%;
+    border: none;
+    background-color: white;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to left, rgb(88, 88, 214), rgb(255, 0, 0));
+    border-image-slice: 1;
+    outline: none;
+    margin-left: 3px;
+    max-width: 300px;
+    width: calc(100% - 6px);
+}
+
+#sb {
+    margin-top: 50px;
+    background-image: linear-gradient(to left, rgb(88, 88, 214), rgb(255, 0, 0));
+    opacity: 0.6;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    transition: 0.2s;
+    max-width: 300px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 50px;
+}
+
+#sb:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.homepage-link {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    color: #919191;
+    display: block;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.homepage-link:hover {
+    text-decoration: none;
+}
+
+.errorEmail {
+    color: #696969;
+    font-size: 10px;
+    display: none;
+}
+
+.errorPassword {
+    color: #696969;
+    font-size: 10px;
+    display: none;
+}

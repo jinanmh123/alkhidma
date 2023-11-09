@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.10eac06f.css",
+    "main.js": "/static/js/main.f76f028c.js",
+    "static/js/787.d4aba7ab.chunk.js": "/static/js/787.d4aba7ab.chunk.js",
+    "static/media/bg.png": "/static/media/bg.b5a0170758e8533b227c.png",
+    "static/media/event2.png": "/static/media/event2.8763d0dcb13d304bfe50.png",
+    "static/media/event3.png": "/static/media/event3.45930ff3cd8e40de3b21.png",
+    "static/media/event1.jpg": "/static/media/event1.bc15f05150f298f64a4d.jpg",
+    "static/media/insta-logo.png": "/static/media/insta-logo.5c64d018f8850126a4b3.png",
+    "static/media/bkash-logo.png": "/static/media/bkash-logo.27651b89c0a1b5179d34.png",
+    "static/media/gmail-logo.png": "/static/media/gmail-logo.cab10037fbf92eb947ac.png",
+    "static/media/facebook-logo.png": "/static/media/facebook-logo.790642551cd99bb66a7e.png",
+    "static/media/logo.png": "/static/media/logo.a7e2590241ef8adee11f.png",
+    "index.html": "/index.html",
+    "main.10eac06f.css.map": "/static/css/main.10eac06f.css.map",
+    "main.f76f028c.js.map": "/static/js/main.f76f028c.js.map",
+    "787.d4aba7ab.chunk.js.map": "/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10eac06f.css",
+    "static/js/main.f76f028c.js"
+  ]
+}

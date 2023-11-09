@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+}
+
+.Body {
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.Contact-Container {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid;
+    border-color: white;
+    border-radius: 15px;
+    width: 350px;
+    max-width: 85%;
+}
+
+.SocialMediaList {
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+}
+
+.SocialMedia {
+    padding-left: 30px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-bottom: 45px;
+}
+
+#Bkash {
+    padding-left: 20px;
+}
+
+#Contact-SocialMedia {
+    padding-left: 20%;
+}
+
+.Title {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -150%);
+    font-size: 24px;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+
+.Contact-Text {
+    font-size: 11px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 14%;
+}
+
+.Homepage-Link {
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -8%);
+    position: absolute;
+    text-decoration: none;
+    color: #919191;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    display: block;
+    text-decoration: underline;
+}
+
+.Homepage-Link:hover {
+    text-decoration: none;
+}
+
+.red-asterisk {
+    color: red;
+}
+
+#BkashLogo {
+    height: 35px;
+    width: 77px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 390px) {
+    .Contact-Text {
+        font-size: 8px;
+    }
+
+    #Contact-SocialMedia {
+        padding-left: 15%;
+    }
+
+    #FBLogo {
+        width: 40px;
+    }    
+    #InstaLogo {
+        width: 40px;
+    }
+
+    #GmailLogo {
+        width: 40px;
+    }
+
+    #BkashLogo {
+        width: 55px;
+        height: 25px;
+    }
+
+    .contact-text {
+        padding-left: 11%;
+    }
+}

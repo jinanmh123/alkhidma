@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.Mobile-Menu {
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#Hidden-Container{
+    position: absolute;
+    top: 131px;
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    background-color: #fdfdfd;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.Menu-Icon {
+    display: block; 
+    position: absolute;
+    right: 25px;
+    top: 60px;
+    color: #7a6d6d;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: #e7e7e7;
+}
+
+.Hidden-Menu-List {
+    list-style: none;
+}
+
+.Hidden-Menu-Item {
+    padding: 3px;
+}
+
+#Hidden-Link-About {
+    text-decoration: none;
+    font-family: Segoe UI;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 320;
+    color: black;
+    color: rgb(127, 127, 136);
+    text-decoration: underline;
+}
+
+#Hidden-Link-Events {
+    text-decoration: none;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 320;
+    color: black;
+    font-family: Segoe UI;
+}
+
+#Hidden-Link-Contact {
+    text-decoration: none;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 320;
+    color: black;
+    font-family: Segoe UI;
+}
+
+#Hidden-Link-Login {
+    text-decoration: none;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 320;
+    color: black;
+    font-family: Segoe UI;
+}
+.Desktop-Menu {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 85px;
+    background-color: white;
+}
+
+.Menu-List {
+    padding-right: 4%;
+    margin-left: 0px;
+}
+
+.Menu-Item {
+    list-style: none;
+    float: right;
+    line-height: 85px;
+}
+
+#Link-About {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 320;
+    font-family: Segoe UI;
+    color: rgb(200, 201, 214);
+    padding: 0 45px;
+    transition: 0.2s;
+    background-color: #fcfcfc;
+}
+
+#Link-Events {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 320;
+    font-family: Segoe UI;
+    color: rgb(200, 201, 214);
+    padding: 0 45px;
+    transition: 0.2s;
+}
+
+#Link-Contact {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 320;
+    font-family: Segoe UI;
+    color: rgb(200, 201, 214);
+    padding: 0 45px;
+    transition: 0.2s;
+}
+
+#Link-Login {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 320;
+    font-family: Segoe UI;
+    color: rgb(200, 201, 214);
+    padding: 0 45px;
+    background-color: rgb(100, 100, 235);
+    transition: 0.2s;
+}
+
+
+#Link-About:hover {
+    height: 89px;
+    text-decoration: underline;
+    background-color: #fafafa;
+}
+
+#Link-Events:hover {
+    height: 89px;
+    text-decoration: underline;
+    background-color: #fafafa;
+}
+
+#Link-Contact:hover {
+    height: 89px;
+    text-decoration: underline;
+    background-color: #fafafa;
+}
+
+#Link-Login:hover {
+    height: 88px;
+    background-color: rgb(95, 95, 199);
+}
+
+.Logo-Desktop {
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 3%;
+}
+
+.Container {
+    padding-top: 100px;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Banner {
+    width: 1200px;
+    height: 400px;
+    background-image: url('images/bg.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    text-align: center;
+}
+
+.Banner-Text {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 280%;
+}
+
+.H1 {
+    padding-top: 70px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+}
+
+.HR {
+    top: 60px;
+    background-color: rgb(58, 58, 58);
+    height: 1px;
+    width: 780px;
+    max-width: 85%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Text {
+    position: relative;
+    top: 110px;
+    width: 780px;
+    max-width: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+}
+
+@media (max-width: 810px) {
+    .Desktop-Menu {
+        display: none;
+    }
+
+    #Hidden-Container{
+        display: none;
+    }
+}
+
+@media (min-width: 810px) {
+    .Mobile-Menu {
+        display: none;
+    }
+}

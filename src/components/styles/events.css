@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.mobile-menu {
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#hidden {
+    position: absolute;
+    top: 131px;
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    background-color: #fdfdfd;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.menu-icon {
+    display: block; 
+    position: absolute;
+    right: 25px;
+    top: 60px;
+    color: #7a6d6d;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: #e7e7e7;
+}
+
+.hidden-menu-list {
+    list-style: none;
+}
+
+.hidden-menu-item {
+    padding: 3px;
+}
+
+#hidden-link-about {
+    text-decoration: none;
+    font-family: Segoe UI;
+    padding: 0px;
+    color: black;
+    font-size: 18px;
+    font-weight: 320;
+}
+
+#hidden-link-events {
+    text-decoration: none;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 320;
+    font-family: Segoe UI;
+    color: rgb(127, 127, 136);
+    text-decoration: underline;
+}
+
+#hidden-link-contact {
+    text-decoration: none;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 320;
+    color: black;
+    font-family: Segoe UI;
+}
+
+#hidden-link-login {
+    text-decoration: none;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 320;
+    color: black;
+    font-family: Segoe UI;
+}
+
+.desktop-menu {
+    z-index: 2;
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 85px;
+    background-color: white;
+}
+
+.menu-list {
+    padding-right: 4%;
+    margin-left: 0px;
+}
+
+.menu-item {
+    list-style: none;
+    float: right;
+    line-height: 85px;
+}
+
+#link-about {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 320;
+    font-family: Segoe UI;
+    color: rgb(200, 201, 214);
+    padding: 0 45px;
+    transition: 0.2s;
+}
+
+#link-events {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 320;
+    font-family: Segoe UI;
+    color: rgb(200, 201, 214);
+    padding: 0 45px;
+    transition: 0.2s;
+    background-color: #fcfcfc;
+}
+
+#link-contact {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 320;
+    font-family: Segoe UI;
+    color: rgb(200, 201, 214);
+    padding: 0 45px;
+    transition: 0.2s;
+}
+
+#link-login {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 320;
+    font-family: Segoe UI;
+    color: rgb(200, 201, 214);
+    padding: 0 45px;
+    background-color: rgb(100, 100, 235);
+    transition: 0.2s;
+}
+
+
+#link-about:hover {
+    height: 89px;
+    text-decoration: underline;
+    background-color: #fafafa;
+}
+
+#link-events:hover {
+    height: 89px;
+    text-decoration: underline;
+    background-color: #fafafa;
+}
+
+#link-contact:hover {
+    height: 89px;
+    text-decoration: underline;
+    background-color: #fafafa;
+}
+
+#link-login:hover {
+    height: 88px;
+    background-color: rgb(95, 95, 199);
+}
+
+.logo-desktop {
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 3%;
+}
+
+.event {
+    z-index: 1;
+    top: 270px;
+    position: relative;
+    min-height: 500px;
+    width: 500px;
+    max-width: 85%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-bottom: 90px;
+    margin-right: auto;
+}
+
+
+.bangla-text {
+    padding: 23px;
+    line-height: 25px;
+}
+
+
+.facebook-link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    padding-left: 10px;
+    color: rgb(110, 108, 108);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.facebook-link:hover {
+    text-decoration: underline;
+}
+
+#itemList {
+    padding-left: 20%;
+}
+
+#bottomSpace {
+    position: relative;
+    height: 300px;
+}
+
+
+
+@media (max-width: 810px) {
+    .desktop-menu {
+        display: none;
+    }
+
+    #hidden {
+        display: none;
+    }
+}
+
+@media (min-width: 810px) {
+    .mobile-menu {
+        display: none;
+    }
+}
